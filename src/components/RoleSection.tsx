@@ -69,7 +69,7 @@ const RoleSection = () => {
           {roles.map((role, index) => (
             <div
               key={index}
-              className={`role-card group ${role.color}`}
+              className={`role-card ${role.color}`}
               style={{ 
                 animationDelay: `${index * 200}ms`,
                 animation: 'slideUp 0.6s ease-out forwards'

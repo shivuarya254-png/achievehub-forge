@@ -193,7 +193,7 @@
 
   /* Role Cards */
   .role-card {
-    @apply bg-card border border-border rounded-2xl p-8 card-hover cursor-pointer;
+    @apply bg-card border border-border rounded-2xl p-8 card-hover cursor-pointer group;
     background: var(--gradient-card);
   }
 
